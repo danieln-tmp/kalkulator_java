@@ -5,7 +5,7 @@ public class LogikaKalkulatora {
 		return switch(liczba) {
 			case 0 -> throw new IllegalArgumentException("Dzielenie przez zero");
 			default -> liczba1 / liczba2;
-		}
+		};
 	}
 
     public String[] dostepneOperacje() {

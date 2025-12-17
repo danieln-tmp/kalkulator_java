@@ -2,7 +2,7 @@ package pl.alx.kalkulator;
 
 public class LogikaKalkulatora {
 	private long dziel(long liczba1, long liczba2) {
-		return switch(liczba) {
+		return switch(liczba2) {
 			case 0 -> throw new IllegalArgumentException("Dzielenie przez zero");
 			default -> liczba1 / liczba2;
 		};
